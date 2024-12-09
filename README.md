@@ -5,15 +5,16 @@ This project focuses on data cleaning and preparation using SQL, based on the cl
 Create new clean table:
 -- club_member_info_cleaned definition
 
-CREATE TABLE club_member_info_cleaned (
-	full_name VARCHAR,
-	age INTEGER,
-	martial_status VARCHAR,
-	email VARCHAR,
-	phone VARCHAR,
-	full_address VARCHAR,
-	job_title VARCHAR,
-	membership_date VARCHAR
+			CREATE TABLE club_member_info_cleaned (
+				full_name VARCHAR(50),
+				age INTEGER,
+				martial_status VARCHAR(50),
+				email VARCHAR(50),
+				phone VARCHAR(50),
+				full_address VARCHAR(50),
+				job_title VARCHAR(50),
+				membership_date VARCHAR(50)
+			);
 );
 
 Sql code:
