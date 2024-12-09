@@ -15,7 +15,6 @@ Create new clean table:
 				job_title VARCHAR(50),
 				membership_date VARCHAR(50)
 			);
-);
 
 Sql code:
 SELECT *
